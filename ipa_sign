@@ -35,7 +35,7 @@ EOF
     exit;
 fi
 
-## Exit on use of an uninitialized variable
+## Exit on use of an uninitialized variable 
 set -o nounset
 ## Exit if any statement returns a non-true return value (non-zero)
 set -o errexit
